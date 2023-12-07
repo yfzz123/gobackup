@@ -27,7 +27,7 @@ RUN apk add \
   gcompat \
   icu \
   # support change timezone
-  tzdata
+  tzdata \
   && \
   rm -rf /var/cache/apk/*
 
