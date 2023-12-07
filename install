@@ -45,7 +45,6 @@ if test -e "${bin_path}"; then
   fi
 fi
 cd "${tmp_dir}"
-curl "${package_url}"
 curl -vsSL "${package_url}" | tar xzf -
 
 if test $(id -u) -eq 0; then
